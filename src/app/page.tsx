@@ -2,6 +2,7 @@
 
 import { motion, useScroll } from "framer-motion";
 
+import PageLoader from "@/components/PageLoader";
 import MagneticCursor from "@/components/MagneticCursor";
 import Header from "@/components/Header";
 import Features from "@/components/Features";
@@ -22,6 +23,8 @@ export default function Page() {
 
   return (
     <main className="bg-[#faf7f2] text-[#1d1d1d]">
+      <PageLoader />
+
       <MagneticCursor />
 
       <motion.div
@@ -37,6 +40,7 @@ export default function Page() {
       <ComparisonSection />
       <IngredientsSection />
       <VideoShowcase />
+
       <section className="max-w-6xl mx-auto px-6 py-20 space-y-20">
         <SplitSection
           img="/Benefits-1.jpg"
@@ -50,6 +54,7 @@ export default function Page() {
           reverse
         />
       </section>
+
       <Testimonials />
       <BestSellers />
       <FaqNewsletter />
