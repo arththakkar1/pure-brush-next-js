@@ -12,15 +12,12 @@ export default function VideoShowcase() {
     offset: ["start 80%", "end start"],
   });
 
-  // Desktop animation
   const scaleDesktop = useTransform(scrollYProgress, [0, 1], [1, 1.25]);
   const yDesktop = useTransform(scrollYProgress, [0, 1], ["0%", "-8%"]);
 
-  // Mobile animation (softer)
   const scaleMobile = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
   const yMobile = useTransform(scrollYProgress, [0, 1], ["0%", "-4%"]);
 
-  // Choose animation based on screen width
   const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
 
   const scale = isMobile ? scaleMobile : scaleDesktop;
