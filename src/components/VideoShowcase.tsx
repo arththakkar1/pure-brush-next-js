@@ -30,7 +30,7 @@ export default function VideoShowcase() {
       ref={ref}
       className="py-12 sm:py-20 bg-[#faf7f2] border-t border-black/5 px-4"
     >
-      <MotionDiv {...fadeUpProps(0)} className="text-center mb-8 sm:mb-12">
+      <MotionDiv className="text-center mb-8 sm:mb-12">
         <h3 className="text-lg sm:text-xl font-semibold">
           A Ritual, Not a Task
         </h3>

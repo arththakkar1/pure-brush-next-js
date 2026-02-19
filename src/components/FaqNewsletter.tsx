@@ -28,7 +28,7 @@ export default function FaqNewsletter() {
       className="max-w-6xl mx-auto px-6 py-16 md:py-20 border-t border-black/5"
     >
       <div className="grid md:grid-cols-[1.2fr,1fr] gap-12">
-        <MotionDiv {...fadeUpProps(0)}>
+        <MotionDiv>
           <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-2">
             QUESTIONS
           </p>

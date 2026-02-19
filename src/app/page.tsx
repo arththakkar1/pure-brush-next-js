@@ -2,7 +2,6 @@
 
 import { motion, useScroll } from "framer-motion";
 
-import PageLoader from "@/components/PageLoader";
 import MagneticCursor from "@/components/MagneticCursor";
 import Header from "@/components/Header";
 import Features from "@/components/Features";
@@ -23,8 +22,6 @@ export default function Page() {
 
   return (
     <main className="bg-[#faf7f2] text-[#1d1d1d]">
-      <PageLoader />
-
       <MagneticCursor />
 
       <motion.div

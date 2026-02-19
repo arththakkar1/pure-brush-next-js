@@ -57,7 +57,7 @@ export default function Hero() {
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 py-16 md:py-24">
         {/* text */}
-        <motion.div style={{ y: heroTextY }} {...fadeUpProps(0.05)}>
+        <motion.div style={{ y: heroTextY }}>
           <p className="text-xs uppercase tracking-[0.25em] text-neutral-500 mb-4">
             EARTH-KIND ORAL CARE
           </p>

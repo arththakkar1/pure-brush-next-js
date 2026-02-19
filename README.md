@@ -22,7 +22,6 @@ PureBrush/
 │   └── page.tsx             # Home page
 ├── components/              # React components
 │   ├── BestSellers.tsx      # Best selling products section
-│   ├── PageLoader.tsx       # Page Loader component
 │   ├── ComparisonSection.tsx # Product comparison
 │   ├── FaqNewsletter.tsx    # FAQ and newsletter signup
 │   ├── Features.tsx         # Product features showcase

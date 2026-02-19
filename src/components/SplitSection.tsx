@@ -47,7 +47,7 @@ export default function SplitSection({ img, title, desc, reverse }: Props) {
         />
       </motion.div>
 
-      <motion.div {...fadeUpProps(0.05)}>
+      <motion.div>
         <h3 className="text-xl md:text-2xl font-semibold mb-3">{title}</h3>
         <p className="text-sm text-neutral-600 mb-5 max-w-md">{desc}</p>
         <div className="flex items-center gap-2 text-xs text-neutral-500">

@@ -21,7 +21,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-[#789e99] text-white py-20">
-      <MotionDiv {...fadeUpProps(0)} className="max-w-5xl mx-auto px-6">
+      <MotionDiv className="max-w-5xl mx-auto px-6">
         <h2 className="text-center text-2xl font-semibold mb-2">
           “It feels like a small spa moment twice a day.”
         </h2>
