@@ -14,16 +14,18 @@ export default function Header() {
       className="sticky top-0 z-30 border-b border-black/5 bg-[#faf7f2]/80 backdrop-blur-xl"
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-        <div className="flex items-center gap-2">
-          <Image
-            src="/logo.svg"
-            alt="PureBrush Logo"
-            width={40}
-            height={40}
-            className="object-contain"
-          />
-          <h1 className="text-lg font-semibold tracking-tight">PureBrush</h1>
-        </div>
+        <ScrollToLink to="#hero">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/logo.svg"
+              alt="PureBrush Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+            <h1 className="text-lg font-semibold tracking-tight">PureBrush</h1>
+          </div>
+        </ScrollToLink>
 
         <nav className="hidden md:flex gap-6 text-sm text-neutral-600">
           <ScrollToLink to="#benefits">Benefits</ScrollToLink>
