@@ -13,7 +13,7 @@ export default function BestSellers() {
 
   return (
     <section id="bestsellers" className="bg-[#789e99] text-white pt-4 pb-20">
-      <MotionDiv {...fadeUpProps(0)} className="max-w-6xl mx-auto px-6">
+      <MotionDiv className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-white/70 mb-2">
